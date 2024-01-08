@@ -6,13 +6,13 @@ TinyBalancer is a reverse proxy load balancer extended from the Go standard libr
 
 - **Protocol Support:** Works with both HTTP and HTTPS.
 - **Load Balancing Algorithms:** Supports a variety of load balancing algorithms, including:
-  - Round-Robin
-  - Random
-  - Power of Two Random Choices
-  - Consistent Hash
-  - Consistent Hash with Bounded
-  - IP Hash
-  - Least Load
+  - [x] Round-Robin
+  - [x] Random
+  - [ ] Power of Two Random Choices
+  - [ ] Consistent Hash
+  - [ ] Consistent Hash with Bounded
+  - [ ] IP Hash
+  - [ ] Least Load
 - **Health Checks and Fault Recovery:** Implements heartbeat checks for backend servers, enabling automatic recovery from failures.
 
 ## Getting Started
